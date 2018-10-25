@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB6542762080742400617EFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6542752080742400617EFE /* AppDelegate.swift */; };
+		EB6542782080742400617EFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6542772080742400617EFE /* ViewController.swift */; };
+		EB65427B2080742400617EFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB6542792080742400617EFE /* Main.storyboard */; };
+		EB65427D2080742600617EFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB65427C2080742600617EFE /* Assets.xcassets */; };
+		EB6542802080742600617EFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB65427E2080742600617EFE /* LaunchScreen.storyboard */; };
+		EB6542882080798D00617EFE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6542872080798D00617EFE /* LoginViewController.swift */; };
+		EB7728E720AAB011001191EC /* GT Walsheim Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB7728E620AAB00F001191EC /* GT Walsheim Regular.ttf */; };
+		EB7728E920AAB017001191EC /* GT-Walsheim-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB7728E820AAB015001191EC /* GT-Walsheim-Bold.ttf */; };
+		EBAB023C20A2C4D70006671C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAB023B20A2C4D70006671C /* SignUpViewController.swift */; };
+		EBAB023E20A2C6850006671C /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAB023D20A2C6850006671C /* VerificationViewController.swift */; };
+		EBAB024020A2CE2D0006671C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAB023F20A2CE2D0006671C /* HomeViewController.swift */; };
+		EBAB024220A2D0170006671C /* BookAnOrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAB024120A2D0170006671C /* BookAnOrderVC.swift */; };
+		EBAB024420A2D2960006671C /* RepairListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAB024320A2D2960006671C /* RepairListVC.swift */; };
+		EBAB024620A2DB6E0006671C /* AccessoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAB024520A2DB6E0006671C /* AccessoriesVC.swift */; };
+		FD197029210876930043B023 /* SlideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD197028210876930043B023 /* SlideMenuViewController.swift */; };
+		FD19702B2108773D0043B023 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD19702A2108773D0043B023 /* MenuTableViewCell.swift */; };
+		FD4E0238210713F300493975 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4E0237210713F300493975 /* MapViewController.swift */; };
+		FDE920F8210729E300A88011 /* PickUpCustomerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE920F7210729E300A88011 /* PickUpCustomerCell.swift */; };
+		FDE920FA21072B0B00A88011 /* PickUpCustomerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE920F921072B0B00A88011 /* PickUpCustomerVC.swift */; };
+		FDE920FC210733BF00A88011 /* ArrivedPickUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE920FB210733BF00A88011 /* ArrivedPickUpVC.swift */; };
+		FDE920FE210741A700A88011 /* PickUpCustomerDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE920FD210741A700A88011 /* PickUpCustomerDetailsVC.swift */; };
+		FDE921002107455200A88011 /* ConfirmationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE920FF2107455200A88011 /* ConfirmationVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB6542722080742400617EFE /* KwikFix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KwikFix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6542752080742400617EFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB6542772080742400617EFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB65427A2080742400617EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB65427C2080742600617EFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB65427F2080742600617EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB6542812080742600617EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB6542872080798D00617EFE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EB7728E620AAB00F001191EC /* GT Walsheim Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT Walsheim Regular.ttf"; sourceTree = "<group>"; };
+		EB7728E820AAB015001191EC /* GT-Walsheim-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Walsheim-Bold.ttf"; sourceTree = "<group>"; };
+		EBAB023B20A2C4D70006671C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		EBAB023D20A2C6850006671C /* VerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
+		EBAB023F20A2CE2D0006671C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EBAB024120A2D0170006671C /* BookAnOrderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookAnOrderVC.swift; sourceTree = "<group>"; };
+		EBAB024320A2D2960006671C /* RepairListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepairListVC.swift; sourceTree = "<group>"; };
+		EBAB024520A2DB6E0006671C /* AccessoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoriesVC.swift; sourceTree = "<group>"; };
+		FD197028210876930043B023 /* SlideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuViewController.swift; sourceTree = "<group>"; };
+		FD19702A2108773D0043B023 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		FD4E0237210713F300493975 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		FDE920F7210729E300A88011 /* PickUpCustomerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUpCustomerCell.swift; sourceTree = "<group>"; };
+		FDE920F921072B0B00A88011 /* PickUpCustomerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUpCustomerVC.swift; sourceTree = "<group>"; };
+		FDE920FB210733BF00A88011 /* ArrivedPickUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrivedPickUpVC.swift; sourceTree = "<group>"; };
+		FDE920FD210741A700A88011 /* PickUpCustomerDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUpCustomerDetailsVC.swift; sourceTree = "<group>"; };
+		FDE920FF2107455200A88011 /* ConfirmationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB65426F2080742400617EFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB6542692080742400617EFE = {
+			isa = PBXGroup;
+			children = (
+				EB6542742080742400617EFE /* KwikFix */,
+				EB6542732080742400617EFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB6542732080742400617EFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB6542722080742400617EFE /* KwikFix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB6542742080742400617EFE /* KwikFix */ = {
+			isa = PBXGroup;
+			children = (
+				EB6542752080742400617EFE /* AppDelegate.swift */,
+				EB6542772080742400617EFE /* ViewController.swift */,
+				EB6542872080798D00617EFE /* LoginViewController.swift */,
+				EBAB023B20A2C4D70006671C /* SignUpViewController.swift */,
+				EBAB023D20A2C6850006671C /* VerificationViewController.swift */,
+				EBAB023F20A2CE2D0006671C /* HomeViewController.swift */,
+				EBAB024120A2D0170006671C /* BookAnOrderVC.swift */,
+				EBAB024320A2D2960006671C /* RepairListVC.swift */,
+				EBAB024520A2DB6E0006671C /* AccessoriesVC.swift */,
+				FD4E02362106EAEF00493975 /* Driver Screens */,
+				EB6542792080742400617EFE /* Main.storyboard */,
+				EB65427C2080742600617EFE /* Assets.xcassets */,
+				EBAB023620A2C24B0006671C /* Fonts */,
+				EB65427E2080742600617EFE /* LaunchScreen.storyboard */,
+				EB6542812080742600617EFE /* Info.plist */,
+			);
+			path = KwikFix;
+			sourceTree = "<group>";
+		};
+		EBAB023620A2C24B0006671C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EB7728E620AAB00F001191EC /* GT Walsheim Regular.ttf */,
+				EB7728E820AAB015001191EC /* GT-Walsheim-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FD4E02362106EAEF00493975 /* Driver Screens */ = {
+			isa = PBXGroup;
+			children = (
+				FD4E0237210713F300493975 /* MapViewController.swift */,
+				FDE920F921072B0B00A88011 /* PickUpCustomerVC.swift */,
+				FDE920FB210733BF00A88011 /* ArrivedPickUpVC.swift */,
+				FDE920FD210741A700A88011 /* PickUpCustomerDetailsVC.swift */,
+				FDE920FF2107455200A88011 /* ConfirmationVC.swift */,
+				FD197028210876930043B023 /* SlideMenuViewController.swift */,
+				FDE920F6210729B300A88011 /* ViewCell */,
+			);
+			path = "Driver Screens";
+			sourceTree = "<group>";
+		};
+		FDE920F6210729B300A88011 /* ViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				FDE920F7210729E300A88011 /* PickUpCustomerCell.swift */,
+				FD19702A2108773D0043B023 /* MenuTableViewCell.swift */,
+			);
+			path = ViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB6542712080742400617EFE /* KwikFix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB6542842080742600617EFE /* Build configuration list for PBXNativeTarget "KwikFix" */;
+			buildPhases = (
+				EB65426E2080742400617EFE /* Sources */,
+				EB65426F2080742400617EFE /* Frameworks */,
+				EB6542702080742400617EFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KwikFix;
+			productName = KwikFix;
+			productReference = EB6542722080742400617EFE /* KwikFix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB65426A2080742400617EFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Volive Solutions";
+				TargetAttributes = {
+					EB6542712080742400617EFE = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = EB65426D2080742400617EFE /* Build configuration list for PBXProject "KwikFix" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB6542692080742400617EFE;
+			productRefGroup = EB6542732080742400617EFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB6542712080742400617EFE /* KwikFix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB6542702080742400617EFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7728E920AAB017001191EC /* GT-Walsheim-Bold.ttf in Resources */,
+				EB6542802080742600617EFE /* LaunchScreen.storyboard in Resources */,
+				EB65427D2080742600617EFE /* Assets.xcassets in Resources */,
+				EB7728E720AAB011001191EC /* GT Walsheim Regular.ttf in Resources */,
+				EB65427B2080742400617EFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB65426E2080742400617EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE921002107455200A88011 /* ConfirmationVC.swift in Sources */,
+				FDE920FA21072B0B00A88011 /* PickUpCustomerVC.swift in Sources */,
+				EB6542882080798D00617EFE /* LoginViewController.swift in Sources */,
+				EB6542782080742400617EFE /* ViewController.swift in Sources */,
+				FDE920F8210729E300A88011 /* PickUpCustomerCell.swift in Sources */,
+				FD19702B2108773D0043B023 /* MenuTableViewCell.swift in Sources */,
+				EBAB023E20A2C6850006671C /* VerificationViewController.swift in Sources */,
+				EBAB023C20A2C4D70006671C /* SignUpViewController.swift in Sources */,
+				FDE920FC210733BF00A88011 /* ArrivedPickUpVC.swift in Sources */,
+				EB6542762080742400617EFE /* AppDelegate.swift in Sources */,
+				FD4E0238210713F300493975 /* MapViewController.swift in Sources */,
+				EBAB024420A2D2960006671C /* RepairListVC.swift in Sources */,
+				EBAB024020A2CE2D0006671C /* HomeViewController.swift in Sources */,
+				EBAB024220A2D0170006671C /* BookAnOrderVC.swift in Sources */,
+				FD197029210876930043B023 /* SlideMenuViewController.swift in Sources */,
+				EBAB024620A2DB6E0006671C /* AccessoriesVC.swift in Sources */,
+				FDE920FE210741A700A88011 /* PickUpCustomerDetailsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB6542792080742400617EFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB65427A2080742400617EFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB65427E2080742600617EFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB65427F2080742600617EFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB6542822080742600617EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB6542832080742600617EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB6542852080742600617EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KwikFix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.volivesolutions.KwikFix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB6542862080742600617EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KwikFix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.volivesolutions.KwikFix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB65426D2080742400617EFE /* Build configuration list for PBXProject "KwikFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6542822080742600617EFE /* Debug */,
+				EB6542832080742600617EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB6542842080742600617EFE /* Build configuration list for PBXNativeTarget "KwikFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6542852080742600617EFE /* Debug */,
+				EB6542862080742600617EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB65426A2080742400617EFE /* Project object */;
+}
